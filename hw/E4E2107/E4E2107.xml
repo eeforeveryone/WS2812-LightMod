@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Ryan\ownCloud\Projects\EEforEveryone\2021\8_LightMod\hw\E4E2107\E4E2107.sch</source>
+    <date>2/11/2021 8:37:50 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Light Bar (E4E2107)</title>
+        <company>EE for Everyone</company>
+        <rev>A</rev>
+        <date>2021-02-11</date>
+        <source>E4E2107.sch</source>
+        <comment number="1" value="For Educational Purposes Only. Not licensed for sale or use in any country."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>ATtiny85-20SU</value>
+      <footprint>Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny85-20SU" description="20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIJ-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6025E4F7</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6025EC90</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>Yageo_0603_10K0_1pct</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG_PN">RC0603FR-0710KL</field>
+        <field name="Value_Show">10K0</field>
+      </fields>
+      <libsource lib="ord_Resistors_Basic" part="Yageo_0603_10K0_1pct" description="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60261C91</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>Yageo_0603_10K0_1pct</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG_PN">RC0603FR-0710KL</field>
+        <field name="Value_Show">10K0</field>
+      </fields>
+      <libsource lib="ord_Resistors_Basic" part="Yageo_0603_10K0_1pct" description="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60262EB9</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60267208</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6026B6D7</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6026CC9A</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60276164</tstamp>
+    </comp>
+    <comp ref="D109">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60276178</tstamp>
+    </comp>
+    <comp ref="D111">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6027618C</tstamp>
+    </comp>
+    <comp ref="D113">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60281546</tstamp>
+    </comp>
+    <comp ref="D115">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028155A</tstamp>
+    </comp>
+    <comp ref="D117">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028156E</tstamp>
+    </comp>
+    <comp ref="D119">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60285582</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E03</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E17</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E2B</tstamp>
+    </comp>
+    <comp ref="D108">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E3F</tstamp>
+    </comp>
+    <comp ref="D110">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E53</tstamp>
+    </comp>
+    <comp ref="D112">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E67</tstamp>
+    </comp>
+    <comp ref="D114">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E7B</tstamp>
+    </comp>
+    <comp ref="D116">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2E8F</tstamp>
+    </comp>
+    <comp ref="D118">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2EA3</tstamp>
+    </comp>
+    <comp ref="D120">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E2EB7</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>Yageo_0603_10R0_1pct</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=RC0603FR-0710RL&amp;k=&amp;pkeyword=RC0603FR-0710RL&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG_PN">RC0603FR-0710RL</field>
+        <field name="Value_Show">10R0</field>
+      </fields>
+      <libsource lib="ord_Resistors_Basic" part="Yageo_0603_10R0_1pct" description="10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031BF0A</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>Yageo_0603_10R0_1pct</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=RC0603FR-0710RL&amp;k=&amp;pkeyword=RC0603FR-0710RL&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG_PN">RC0603FR-0710RL</field>
+        <field name="Value_Show">10R0</field>
+      </fields>
+      <libsource lib="ord_Resistors_Basic" part="Yageo_0603_10R0_1pct" description="10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60325321</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>Samsung_0805_10u_25V_X5R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-2-ND/3888549</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG_PN">CL21A106KAYNNNE</field>
+        <field name="Value_Show">10u</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="ord_Capacitors" part="Samsung_0805_10u_25V_X5R" description="10µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603A25C5</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>Samsung_0603_0.1u_50V_X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG_PN">CL10B104KB8NNNC</field>
+        <field name="Value_Show">0.1u</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="ord_Capacitors" part="Samsung_0603_0.1u_50V_X7R" description="0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603A3EA9</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>Samsung_0603_0.1u_50V_X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG_PN">CL10B104KB8NNNC</field>
+        <field name="Value_Show">0.1u</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="ord_Capacitors" part="Samsung_0603_0.1u_50V_X7R" description="0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603A4BEA</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60432ECE</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6047289B</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60493BFA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2813">
+      <description>RGB LED with integrated controller</description>
+      <docs>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P1.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2813</field>
+        <field name="Footprint">LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="DOUT" type="output"/>
+        <pin num="4" name="DIN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="BIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny25V-10SU">
+      <aliases>
+        <alias>ATtiny25-20SU</alias>
+        <alias>ATtiny45V-10SU</alias>
+        <alias>ATtiny45-20SU</alias>
+        <alias>ATtiny85V-10SU</alias>
+        <alias>ATtiny85-20SU</alias>
+      </aliases>
+      <description>10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIJ-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIJ*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny25V-10SU</field>
+        <field name="Footprint">Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET~/PB5" type="BiDi"/>
+        <pin num="2" name="XTAL1/PB3" type="BiDi"/>
+        <pin num="3" name="XTAL2/PB4" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="AREF/PB0" type="BiDi"/>
+        <pin num="6" name="PB1" type="BiDi"/>
+        <pin num="7" name="PB2" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ord_Capacitors" part="Samsung_0603_0.1u_50V_X7R">
+      <description>0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <docs>https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Samsung_0603_0.1u_50V_X7R</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="MFG_PN">CL10B104KB8NNNC</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="Value_Show">0.1u</field>
+        <field name="Voltage">50V</field>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ord_Capacitors" part="Samsung_0805_10u_25V_X5R">
+      <description>10µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <docs>https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-2-ND/3888549</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Samsung_0805_10u_25V_X5R</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="MFG_PN">CL21A106KAYNNNE</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="Value_Show">10u</field>
+        <field name="Voltage">25V</field>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ord_Resistors_Basic" part="Yageo_0603_10K0_1pct">
+      <description>10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</description>
+      <docs>https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Yageo_0603_10K0_1pct</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="MFG_PN">RC0603FR-0710KL</field>
+        <field name="MFG">Yageo</field>
+        <field name="Value_Show">10K0</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ord_Resistors_Basic" part="Yageo_0603_10R0_1pct">
+      <description>10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</description>
+      <docs>https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=RC0603FR-0710RL&amp;k=&amp;pkeyword=RC0603FR-0710RL&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Yageo_0603_10R0_1pct</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="MFG_PN">RC0603FR-0710RL</field>
+        <field name="MFG">Yageo</field>
+        <field name="Value_Show">10R0</field>
+        <field name="LCSC">C22859</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATtiny.lib</uri>
+    </library>
+    <library logical="ord_Capacitors">
+      <uri>C:/Users/Ryan/ownCloud/Projects/EEforEveryone/KiCad_Libs/Global/ord_Capacitors.lib</uri>
+    </library>
+    <library logical="ord_Resistors_Basic">
+      <uri>C:/Users/Ryan/ownCloud/Projects/EEforEveryone/KiCad_Libs/Global/ord_Resistors_Basic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C102" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="R103" pin="2"/>
+      <node ref="J103" pin="1"/>
+      <node ref="D112" pin="2"/>
+      <node ref="D104" pin="2"/>
+      <node ref="D115" pin="2"/>
+      <node ref="D113" pin="2"/>
+      <node ref="D102" pin="2"/>
+      <node ref="D110" pin="2"/>
+      <node ref="D107" pin="2"/>
+      <node ref="D109" pin="2"/>
+      <node ref="D101" pin="2"/>
+      <node ref="D103" pin="2"/>
+      <node ref="D105" pin="2"/>
+      <node ref="R104" pin="2"/>
+      <node ref="J101" pin="1"/>
+      <node ref="D116" pin="2"/>
+      <node ref="U101" pin="8"/>
+      <node ref="J102" pin="1"/>
+      <node ref="D119" pin="2"/>
+      <node ref="D108" pin="2"/>
+      <node ref="D120" pin="2"/>
+      <node ref="D111" pin="2"/>
+      <node ref="D114" pin="2"/>
+      <node ref="D117" pin="2"/>
+      <node ref="D118" pin="2"/>
+      <node ref="D106" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="D107" pin="5"/>
+      <node ref="D114" pin="5"/>
+      <node ref="J102" pin="6"/>
+      <node ref="D113" pin="5"/>
+      <node ref="D117" pin="5"/>
+      <node ref="U101" pin="4"/>
+      <node ref="D112" pin="5"/>
+      <node ref="D115" pin="5"/>
+      <node ref="D106" pin="5"/>
+      <node ref="D101" pin="5"/>
+      <node ref="D104" pin="5"/>
+      <node ref="D103" pin="5"/>
+      <node ref="D105" pin="5"/>
+      <node ref="D116" pin="5"/>
+      <node ref="D109" pin="5"/>
+      <node ref="D118" pin="5"/>
+      <node ref="C101" pin="2"/>
+      <node ref="D120" pin="5"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="D102" pin="5"/>
+      <node ref="D111" pin="5"/>
+      <node ref="D110" pin="5"/>
+      <node ref="D108" pin="5"/>
+      <node ref="J101" pin="2"/>
+      <node ref="D119" pin="5"/>
+      <node ref="J104" pin="2"/>
+      <node ref="J103" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D114-Pad1)">
+      <node ref="D114" pin="1"/>
+      <node ref="D116" pin="6"/>
+    </net>
+    <net code="4" name="Net-(D116-Pad3)">
+      <node ref="D118" pin="4"/>
+      <node ref="D116" pin="3"/>
+    </net>
+    <net code="5" name="Net-(D112-Pad1)">
+      <node ref="D112" pin="1"/>
+      <node ref="D114" pin="6"/>
+    </net>
+    <net code="6" name="Net-(D114-Pad3)">
+      <node ref="D114" pin="3"/>
+      <node ref="D116" pin="4"/>
+    </net>
+    <net code="7" name="Net-(D106-Pad3)">
+      <node ref="D106" pin="3"/>
+      <node ref="D108" pin="4"/>
+    </net>
+    <net code="8" name="Net-(D104-Pad3)">
+      <node ref="D106" pin="4"/>
+      <node ref="D104" pin="3"/>
+    </net>
+    <net code="9" name="Net-(D102-Pad1)">
+      <node ref="D104" pin="6"/>
+      <node ref="D102" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D102-Pad3)">
+      <node ref="D102" pin="3"/>
+      <node ref="D104" pin="4"/>
+    </net>
+    <net code="11" name="Net-(D118-Pad3)">
+      <node ref="D118" pin="3"/>
+      <node ref="D120" pin="4"/>
+    </net>
+    <net code="12" name="Net-(D120-Pad3)">
+      <node ref="D120" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D120-Pad1)">
+      <node ref="D120" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D116-Pad1)">
+      <node ref="D116" pin="1"/>
+      <node ref="D118" pin="6"/>
+    </net>
+    <net code="15" name="Net-(D106-Pad1)">
+      <node ref="D106" pin="1"/>
+      <node ref="D108" pin="6"/>
+    </net>
+    <net code="16" name="Net-(D104-Pad1)">
+      <node ref="D106" pin="6"/>
+      <node ref="D104" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D110-Pad1)">
+      <node ref="D110" pin="1"/>
+      <node ref="D112" pin="6"/>
+    </net>
+    <net code="18" name="Net-(D112-Pad3)">
+      <node ref="D112" pin="3"/>
+      <node ref="D114" pin="4"/>
+    </net>
+    <net code="19" name="Net-(D108-Pad1)">
+      <node ref="D110" pin="6"/>
+      <node ref="D108" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D108-Pad3)">
+      <node ref="D108" pin="3"/>
+      <node ref="D110" pin="4"/>
+    </net>
+    <net code="21" name="Net-(D110-Pad3)">
+      <node ref="D112" pin="4"/>
+      <node ref="D110" pin="3"/>
+    </net>
+    <net code="22" name="/~SW">
+      <node ref="J104" pin="1"/>
+      <node ref="U101" pin="2"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D118-Pad1)">
+      <node ref="D118" pin="1"/>
+      <node ref="D120" pin="6"/>
+    </net>
+    <net code="24" name="Net-(D102-Pad6)">
+      <node ref="D119" pin="1"/>
+      <node ref="D102" pin="6"/>
+    </net>
+    <net code="25" name="/LED_DATA">
+      <node ref="R102" pin="1"/>
+      <node ref="U101" pin="3"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D101-Pad4)">
+      <node ref="R101" pin="2"/>
+      <node ref="D101" pin="4"/>
+    </net>
+    <net code="27" name="Net-(D101-Pad6)">
+      <node ref="D101" pin="6"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D102-Pad4)">
+      <node ref="D102" pin="4"/>
+      <node ref="D119" pin="3"/>
+    </net>
+    <net code="29" name="Net-(D101-Pad1)">
+      <node ref="D101" pin="1"/>
+      <node ref="D103" pin="6"/>
+    </net>
+    <net code="30" name="Net-(D103-Pad3)">
+      <node ref="D105" pin="4"/>
+      <node ref="D103" pin="3"/>
+    </net>
+    <net code="31" name="Net-(D101-Pad3)">
+      <node ref="D103" pin="4"/>
+      <node ref="D101" pin="3"/>
+    </net>
+    <net code="32" name="Net-(D107-Pad1)">
+      <node ref="D109" pin="6"/>
+      <node ref="D107" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D109-Pad3)">
+      <node ref="D109" pin="3"/>
+      <node ref="D111" pin="4"/>
+    </net>
+    <net code="34" name="Net-(D105-Pad1)">
+      <node ref="D107" pin="6"/>
+      <node ref="D105" pin="1"/>
+    </net>
+    <net code="35" name="Net-(D105-Pad3)">
+      <node ref="D107" pin="4"/>
+      <node ref="D105" pin="3"/>
+    </net>
+    <net code="36" name="Net-(D107-Pad3)">
+      <node ref="D109" pin="4"/>
+      <node ref="D107" pin="3"/>
+    </net>
+    <net code="37" name="Net-(D103-Pad1)">
+      <node ref="D103" pin="1"/>
+      <node ref="D105" pin="6"/>
+    </net>
+    <net code="38" name="/MOSI">
+      <node ref="U101" pin="5"/>
+      <node ref="J102" pin="2"/>
+    </net>
+    <net code="39" name="/MISO">
+      <node ref="U101" pin="6"/>
+      <node ref="J102" pin="3"/>
+    </net>
+    <net code="40" name="/SCK">
+      <node ref="J102" pin="4"/>
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="41" name="/~RST">
+      <node ref="R104" pin="1"/>
+      <node ref="U101" pin="1"/>
+      <node ref="J102" pin="5"/>
+    </net>
+    <net code="42" name="Net-(D111-Pad1)">
+      <node ref="D113" pin="6"/>
+      <node ref="D111" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D111-Pad3)">
+      <node ref="D113" pin="4"/>
+      <node ref="D111" pin="3"/>
+    </net>
+    <net code="44" name="Net-(D109-Pad1)">
+      <node ref="D109" pin="1"/>
+      <node ref="D111" pin="6"/>
+    </net>
+    <net code="45" name="Net-(D117-Pad1)">
+      <node ref="D117" pin="1"/>
+      <node ref="D119" pin="6"/>
+    </net>
+    <net code="46" name="Net-(D117-Pad3)">
+      <node ref="D119" pin="4"/>
+      <node ref="D117" pin="3"/>
+    </net>
+    <net code="47" name="Net-(D115-Pad1)">
+      <node ref="D115" pin="1"/>
+      <node ref="D117" pin="6"/>
+    </net>
+    <net code="48" name="Net-(D115-Pad3)">
+      <node ref="D115" pin="3"/>
+      <node ref="D117" pin="4"/>
+    </net>
+    <net code="49" name="Net-(D113-Pad1)">
+      <node ref="D115" pin="6"/>
+      <node ref="D113" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D113-Pad3)">
+      <node ref="D115" pin="4"/>
+      <node ref="D113" pin="3"/>
+    </net>
+  </nets>
+</export>
